@@ -14,7 +14,7 @@
 6. CRUD (Demonstração)  
 7. Relatórios (Consultas SQL)  
 8. Estrutura do Repositório  
-9. Considerações Finais  
+
 
 ---
 
@@ -53,7 +53,7 @@ O Diagrama Entidade-Relacionamento (DER) foi desenvolvido para representar grafi
 
 ### Principais relacionamentos:
 
-- **Cliente (1) — (N) Pet**  
+- **Cliente (N) — (N) Pet**  
   Um cliente pode ter vários pets, mas cada pet pertence a apenas um cliente.
 
 - **Pet (1) — (N) Consulta**  
